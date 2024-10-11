@@ -1,0 +1,29 @@
+/* Add your block styles here */
+.avatar-wrapper{
+    width: 250px;
+    height: 250px;
+}
+
+#about-me {
+    margin-top: 1rem;
+}
+
+.intro-btn {
+    width: 200px;
+}
+
+
+@media screen and (max-width: 767px) {
+    #about-me {
+        margin-top: 0;
+    }
+
+    .bio-text {
+        text-align: center;
+    }
+
+    .intro-desc {
+        align-items: center;
+    }
+}
+
