@@ -1,0 +1,29 @@
+.uni-logo {
+    max-width: 150px;
+}
+
+.test-logo {
+    max-width: 150px;
+}
+
+
+.academic .title {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+}
+
+.academic {
+    margin-bottom: 6rem;
+}
+
+.academic-list {
+    max-width: 75ch;
+}
+
+#section-academics {
+    margin-bottom: -5rem;
+}
+
+a:hover {
+    color: rgb(var(--color-primary-700))
+}
