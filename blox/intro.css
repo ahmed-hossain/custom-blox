@@ -11,7 +11,6 @@
 .intro-btn {
     max-width: 225px;
     border: 2px solid rgb(var(--color-primary-900));
-    color: rgb(var(--color-primary-900));
     padding-top: .75rem;
     padding-bottom: .75rem;
 }
@@ -22,7 +21,7 @@
 }
 
 .intro-btn:focus {
-    color: rgb(var(--color-primary-900));
+    color: rgb(var(--color-primary-500));
     outline-color: rgb(var(--color-primary-200));;
 }
 
