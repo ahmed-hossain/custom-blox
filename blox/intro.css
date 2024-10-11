@@ -9,7 +9,21 @@
 }
 
 .intro-btn {
-    width: 200px;
+    max-width: 225px;
+    border: 2px solid rgb(var(--color-primary-900));
+    color: rgb(var(--color-primary-900));
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.intro-btn:hover {
+    color: white;
+    background-color: rgb(var(--color-primary-900));
+}
+
+.intro-btn:focus {
+    color: rgb(var(--color-primary-900));
+    outline-color: rgb(var(--color-primary-200));;
 }
 
 
