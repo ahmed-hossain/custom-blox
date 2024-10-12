@@ -88,7 +88,7 @@
                     <time class="block mt-2 mb-4 text-md font-normal leading-none text-gray-500 dark:text-gray-300">
                         {{ (time .date) | time.Format ($block.design.date_format | default "January 2006") }}
                     </time>
-                    <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert">{{.score | $page.RenderString}}</div>
+                    <div class="scores mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert">{{.score | $page.RenderString}}</div>
             
                     {{ with .button }}
                     <a href="{{.url}}" target="_blank" rel="noopener" class="academic-btn inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-full hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">

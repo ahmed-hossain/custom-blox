@@ -64,6 +64,16 @@ a:hover {
     box-sizing: border-box; /* Ensures padding and borders are included in the width */
   }
 
+.scores ul {
+    margin-top: 1.5rem;
+    padding-left: 0;
+}
+.scores li {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
 .courses h2 {
     margin-bottom: 0.5rem;
     margin-top: 2rem;
