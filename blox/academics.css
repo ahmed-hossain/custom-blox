@@ -6,6 +6,18 @@
     max-width: 150px;
 }
 
+.academic-btn {
+    max-width: 225px;
+    color: rgb(var(--color-primary-900));
+    border: 2px solid rgb(var(--color-primary-900));
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.academic-btn:hover {
+    color: white;
+    background-color: rgb(var(--color-primary-900));
+}
 
 .academic .title {
     font-size: 4rem;
@@ -26,4 +38,38 @@
 
 a:hover {
     color: rgb(var(--color-primary-700))
+}
+
+.courses ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-right: -5rem;
+}
+
+.courses li {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    flex: 0 0 50%; /* Each item takes up 50% of the width, creating two columns */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  }
+
+.courses h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+    .courses ul {
+        display: block;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    
+    .courses li {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
+      }
 }
